@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+
+    <prato id="p1">
+        <nome>Feijoada</nome>
+        <descricao>Prato tradicional brasileiro</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carne seca</ingrediente>
+            <ingrediente>Linguiça</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 25.00</preco>
+        <calorias>800</calorias>
+        <tempoPreparo>120 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p2">
+        <nome>Macarrão</nome>
+        <descricao>Macarrão ao molho de tomate</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão</ingrediente>
+            <ingrediente>Molho de tomate</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 18.00</preco>
+        <calorias>600</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p3">
+        <nome>Hambúrguer</nome>
+        <descricao>Hambúrguer artesanal</descricao>
+        <ingredientes>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Carne</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">$ 10.00</preco>
+        <calorias>700</calorias>
+        <tempoPreparo>20 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p4">
+        <nome>Salada</nome>
+        <descricao>Salada saudável</descricao>
+        <ingredientes>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Cenoura</ingredente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 12.00</preco>
+        <calorias>200</calorias>
+        <tempoPreparo>10 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p5">
+        <nome>Pizza</nome>
+        <descricao>Pizza de calabresa</descricao>
+        <ingredientes>
+            <ingrediente>Massa</ingrediente>
+            <ingrediente>Calabresa</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 30.00</preco>
+        <calorias>900</calorias>
+        <tempoPreparo>40 minutos</tempoPreparo>
+    </prato>
+
+</cardapio>
