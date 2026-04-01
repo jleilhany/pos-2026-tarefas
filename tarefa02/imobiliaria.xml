@@ -54,7 +54,8 @@
     <imovel>
         <descricao> casa com vista para lago</descricao>
         <proprietario>
-          <nome> maria de lourdes </nome> 
+          <nome> maria de lourdes </nome>
+          <email> </email> 
           <telefone>9999-2222</telefone>
         </proprietario> 
         <endereco>
@@ -136,7 +137,3 @@
         <valor>3000000</valor> 
     </imovel>
 </imobiliaria>
-
-
-
-
