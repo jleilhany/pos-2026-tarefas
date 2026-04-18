@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Tipo decimal com exatamente 2 casas -->
+    <xs:simpleType name="precoType">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="6"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo para moeda -->
+    <xs:simpleType name="moedaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="BRL"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Elemento raiz -->
+    <xs:element name="cardapio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prato" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="nome" type="xs:string"/>
+                            <xs:element name="descricao" type="xs:string"/>
+
+                            <xs:element name="ingredientes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ingrediente" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Preço -->
+                            <xs:element name="preco">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="precoType">
+                                            <xs:attribute name="moeda" type="moedaType" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="calorias" type="xs:integer"/>
+                            <xs:element name="tempoPreparo" type="xs:string"/>
+
+                        </xs:sequence>
+
+                        <!-- ID inteiro -->
+                        <xs:attribute name="id" type="xs:integer" use="required"/>
+
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
