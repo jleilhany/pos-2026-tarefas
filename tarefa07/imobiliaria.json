@@ -1,0 +1,44 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "descricao": "Casa ampla com garagem",
+        "proprietario": {
+          "nome": "João Silva",
+          "email": "joao@email.com",
+          "telefone": ["99999-1111", "98888-2222"]
+        },
+        "endereco": {
+          "rua": "Rua A",
+          "bairro": "Centro",
+          "cidade": "Apodi",
+          "numero": "123"
+        },
+        "caracteristicas": {
+          "tamanho": "120.5",
+          "numQuartos": "3",
+          "numBanheiros": "2"
+        },
+        "valor": "250000"
+      },
+      {
+        "descricao": "Apartamento pequeno",
+        "proprietario": {
+          "nome": "Maria Souza",
+          "telefone": ["97777-3333"]
+        },
+        "endereco": {
+          "rua": "Rua B",
+          "bairro": "Bela Vista",
+          "cidade": "Mossoró"
+        },
+        "caracteristicas": {
+          "tamanho": "60.0",
+          "numQuartos": "2",
+          "numBanheiros": "1"
+        },
+        "valor": "150000"
+      }
+    ]
+  }
+}

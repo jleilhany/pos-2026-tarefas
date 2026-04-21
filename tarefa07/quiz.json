@@ -1,0 +1,40 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "Ciências",
+    "professor": {
+      "nome": "Maria Oliveira",
+      "matricula": "67890"
+    },
+    "turma": "2º Ano B",
+    "data": "2026-05-10",
+    "questoes": {
+      "questao": [
+        {
+          "enunciado": "Quanto é 5 + 3?",
+          "pontuacao": "1",
+          "alternativas": {
+            "alternativa": [
+              { "texto": "6", "correta": "nao" },
+              { "texto": "8", "correta": "sim" },
+              { "texto": "7", "correta": "nao" },
+              { "texto": "9", "correta": "nao" }
+            ]
+          }
+        },
+        {
+          "enunciado": "Qual é a capital da Argentina?",
+          "pontuacao": "1",
+          "alternativas": {
+            "alternativa": [
+              { "texto": "Córdoba", "correta": "nao" },
+              { "texto": "Buenos Aires", "correta": "sim" },
+              { "texto": "Rosário", "correta": "nao" },
+              { "texto": "Mendoza", "correta": "nao" }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

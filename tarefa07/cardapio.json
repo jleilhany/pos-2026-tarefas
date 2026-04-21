@@ -1,0 +1,34 @@
+{
+  "cardapio": {
+    "prato": [
+      {
+        "id": "1",
+        "nome": "Feijoada",
+        "descricao": "Prato tradicional brasileiro",
+        "ingredientes": {
+          "ingrediente": ["Feijão preto", "Carne seca", "Linguiça"]
+        },
+        "preco": {
+          "valor": "25.00",
+          "moeda": "BRL"
+        },
+        "calorias": "800",
+        "tempoPreparo": "120 minutos"
+      },
+      {
+        "id": "2",
+        "nome": "Macarrão",
+        "descricao": "Macarrão ao molho de tomate",
+        "ingredientes": {
+          "ingrediente": ["Macarrão", "Molho de tomate", "Queijo"]
+        },
+        "preco": {
+          "valor": "18.00",
+          "moeda": "BRL"
+        },
+        "calorias": "600",
+        "tempoPreparo": "30 minutos"
+      }
+    ]
+  }
+}

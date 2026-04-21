@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz versao="1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="quiz.xsd">
+
+    <disciplina>Ciências</disciplina>
+
+    <professor>
+        <nome>Maria Oliveira</nome>
+        <matrícula>67890</matrícula>
+    </professor>
+
+    <turma>2º Ano B</turma>
+    <data>2026-05-10</data>
+
+    <questões>
+
+        <questão>
+            <enunciado>Quanto é 5 + 3?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="sim">8</alternativa>
+                <alternativa correta="nao">7</alternativa>
+                <alternativa correta="nao">9</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a capital da Argentina?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Córdoba</alternativa>
+                <alternativa correta="sim">Buenos Aires</alternativa>
+                <alternativa correta="nao">Rosário</alternativa>
+                <alternativa correta="nao">Mendoza</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual linguagem é usada para criar interatividade em páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">HTML</alternativa>
+                <alternativa correta="sim">JavaScript</alternativa>
+                <alternativa correta="nao">CSS</alternativa>
+                <alternativa correta="nao">SQL</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Quanto é 20 / 4?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">4</alternativa>
+                <alternativa correta="sim">5</alternativa>
+                <alternativa correta="nao">6</alternativa>
+                <alternativa correta="nao">8</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é o maior planeta do sistema solar?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Terra</alternativa>
+                <alternativa correta="sim">Júpiter</alternativa>
+                <alternativa correta="nao">Marte</alternativa>
+                <alternativa correta="nao">Saturno</alternativa>
+            </alternativas>
+        </questão>
+
+    </questões>
+
+</quiz>
