@@ -1,0 +1,115 @@
+{
+    "imoveis": [
+        {
+            "descricao": "casa moderna bonita",
+            "proprietario": {
+                "nome": "maria elayne",
+                "email": "layne@gmail.com",
+                "telefones": [
+                    "88888-2222",
+                    "90907-8022"
+                ]
+            },
+            "endereco": {
+                "rua": "rua escola",
+                "bairro": "centro",
+                "cidade": "senador",
+                "numero": "67"
+            },
+            "caracteristicas": {
+                "tamanho": "330m²",
+                "numQuartos": "9",
+                "numBanheiros": "4"
+            },
+            "valor": "3000000"
+        },
+        {
+            "descricao": "casa com vista para lago",
+            "proprietario": {
+                "nome": "maria de lourdes",
+                "email": "",
+                "telefones": [
+                    "9999-2222"
+                ]
+            },
+            "endereco": {
+                "rua": "rua estado",
+                "bairro": "educador",
+                "cidade": "lagoa de velhos",
+                "numero": "23"
+            },
+            "caracteristicas": {
+                "tamanho": "234m²",
+                "numQuartos": "3",
+                "numBanheiros": "8"
+            },
+            "valor": "50000000"
+        },
+        {
+            "descricao": "casa luxuosa",
+            "proprietario": {
+                "nome": "estefani",
+                "email": "estefani@gmail.com",
+                "telefones": [
+                    "89076-1111"
+                ]
+            },
+            "endereco": {
+                "rua": "rua salvador",
+                "bairro": "central",
+                "cidade": "salvador",
+                "numero": null
+            },
+            "caracteristicas": {
+                "tamanho": "370m²",
+                "numQuartos": "2",
+                "numBanheiros": "1"
+            },
+            "valor": "250000"
+        },
+        {
+            "descricao": "casa básica",
+            "proprietario": {
+                "nome": "maria leticia",
+                "email": "leticia@gmail.com",
+                "telefones": [
+                    "85678-2222"
+                ]
+            },
+            "endereco": {
+                "rua": "rua juremal",
+                "bairro": "centro",
+                "cidade": "são paulo",
+                "numero": "23"
+            },
+            "caracteristicas": {
+                "tamanho": "20m²",
+                "numQuartos": "1",
+                "numBanheiros": "1"
+            },
+            "valor": "60000"
+        },
+        {
+            "descricao": "casa de pria",
+            "proprietario": {
+                "nome": "joice",
+                "email": "joice@gmail.com",
+                "telefones": [
+                    "98765-0989"
+                ]
+            },
+            "endereco": {
+                "rua": "rua josefa hortencio",
+                "bairro": "centro",
+                "cidade": "serra",
+                "numero": "3"
+            },
+            "caracteristicas": {
+                "tamanho": "330m²",
+                "numQuartos": "9",
+                "numBanheiros": "4"
+            },
+            "valor": "3000000"
+        }
+    ]
+}

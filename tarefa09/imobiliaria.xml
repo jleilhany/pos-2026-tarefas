@@ -1,0 +1,111 @@
+<imobiliaria>
+
+    <imovel>
+        <descricao> casa moderna bonita</descricao>
+        <proprietario>
+          <nome> maria elayne </nome> 
+          <email> layne@gmail.com </email>
+          <telefone>88888-2222</telefone>
+          <telefone>90907-8022</telefone>
+        </proprietario> 
+        <endereco>
+           <rua> rua escola </rua> 
+           <bairro> centro </bairro> 
+           <cidade> senador </cidade> 
+           <numero>67 </numero>
+        </endereco> 
+        <caracteristicas>
+           <tamanho> 330m² </tamanho>
+           <numQuartos> 9 </numQuartos>
+           <numBanheiros> 4 </numBanheiros>
+        </caracteristicas> 
+        <valor>3000000</valor> 
+    </imovel>
+
+
+    <imovel>
+        <descricao> casa com vista para lago</descricao>
+        <proprietario>
+          <nome> maria de lourdes </nome>
+          <email> </email> 
+          <telefone>9999-2222</telefone>
+        </proprietario> 
+        <endereco>
+           <rua> rua estado </rua> 
+           <bairro> educador </bairro> 
+           <cidade> lagoa de velhos </cidade> 
+           <numero> 23 </numero>
+        </endereco> 
+        <caracteristicas>
+           <tamanho> 234m² </tamanho>
+           <numQuartos> 3 </numQuartos>
+           <numBanheiros> 8 </numBanheiros>
+        </caracteristicas> 
+        <valor>50000000</valor> 
+    </imovel>
+
+
+    <imovel>
+        <descricao> casa luxuosa</descricao>
+        <proprietario>
+          <nome> estefani </nome> 
+          <email> estefani@gmail.com </email>
+          <telefone>89076-1111</telefone>
+        </proprietario> 
+        <endereco>
+           <rua> rua salvador </rua> 
+           <bairro> central </bairro> 
+           <cidade> salvador </cidade> 
+        </endereco> 
+        <caracteristicas>
+           <tamanho> 370m² </tamanho>
+           <numQuartos> 2 </numQuartos>
+           <numBanheiros> 1 </numBanheiros>
+        </caracteristicas> 
+        <valor>250000</valor> 
+    </imovel> 
+
+
+    <imovel>
+        <descricao> casa básica</descricao>
+        <proprietario>
+          <nome> maria leticia </nome> 
+          <email> leticia@gmail.com </email>
+          <telefone>85678-2222</telefone>
+        </proprietario> 
+        <endereco>
+           <rua> rua juremal </rua> 
+           <bairro> centro </bairro> 
+           <cidade> são paulo </cidade> 
+           <numero> 23 </numero>
+        </endereco> 
+        <caracteristicas>
+           <tamanho> 20m² </tamanho>
+           <numQuartos> 1 </numQuartos>
+           <numBanheiros> 1 </numBanheiros>
+        </caracteristicas> 
+        <valor>60000</valor> 
+    </imovel> 
+
+
+    <imovel>
+        <descricao> casa de pria</descricao>
+        <proprietario>
+          <nome> joice </nome> 
+          <email> joice@gmail.com </email>
+          <telefone>98765-0989</telefone>
+        </proprietario> 
+        <endereco>
+           <rua> rua josefa hortencio </rua> 
+           <bairro> centro </bairro> 
+           <cidade> serra </cidade> 
+           <numero> 3 </numero>
+        </endereco> 
+        <caracteristicas>
+           <tamanho> 330m² </tamanho>
+           <numQuartos> 9 </numQuartos>
+           <numBanheiros> 4 </numBanheiros>
+        </caracteristicas> 
+        <valor>3000000</valor> 
+    </imovel>
+</imobiliaria>
