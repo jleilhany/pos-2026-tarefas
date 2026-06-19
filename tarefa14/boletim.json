@@ -1,0 +1,436 @@
+{
+  "results": [
+    {
+      "codigo_diario": "145010",
+      "disciplina": "TIN.0597 - Análise e Projeto Orientados a Objetos(60H)",
+      "segundo_semestre": false,
+      "carga_horaria": 80,
+      "carga_horaria_cumprida": 80,
+      "numero_faltas": 4,
+      "percentual_carga_horaria_frequentada": 95,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 81,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 73,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": 82,
+        "faltas": 2
+      },
+      "nota_etapa_4": {
+        "nota": 95,
+        "faltas": 2
+      },
+      "media_disciplina": 84,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "84"
+    },
+    {
+      "codigo_diario": "145011",
+      "disciplina": "TIN.0592 - Banco de Dados(120H)",
+      "segundo_semestre": false,
+      "carga_horaria": 160,
+      "carga_horaria_cumprida": 160,
+      "numero_faltas": 12,
+      "percentual_carga_horaria_frequentada": 92,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 100,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 76,
+        "faltas": 6
+      },
+      "nota_etapa_3": {
+        "nota": 97,
+        "faltas": 4
+      },
+      "nota_etapa_4": {
+        "nota": 55,
+        "faltas": 2
+      },
+      "media_disciplina": 81,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "81"
+    },
+    {
+      "codigo_diario": "145012",
+      "disciplina": "TIN.0150 - Biologia I(90H)",
+      "segundo_semestre": false,
+      "carga_horaria": 120,
+      "carga_horaria_cumprida": 123,
+      "numero_faltas": 16,
+      "percentual_carga_horaria_frequentada": 87,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 94,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 100,
+        "faltas": 1
+      },
+      "nota_etapa_3": {
+        "nota": 100,
+        "faltas": 6
+      },
+      "nota_etapa_4": {
+        "nota": 85,
+        "faltas": 9
+      },
+      "media_disciplina": 94,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "94"
+    },
+    {
+      "codigo_diario": "145013",
+      "disciplina": "TIN.0187 - Desenvolvimento de Projeto Integrador(60H)",
+      "segundo_semestre": false,
+      "carga_horaria": 80,
+      "carga_horaria_cumprida": 80,
+      "numero_faltas": 0,
+      "percentual_carga_horaria_frequentada": 100,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 93,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": 95,
+        "faltas": 0
+      },
+      "media_disciplina": 92,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "92"
+    },
+    {
+      "codigo_diario": "145014",
+      "disciplina": "TIN.0176 - Filosofia III(30H)",
+      "segundo_semestre": false,
+      "carga_horaria": 40,
+      "carga_horaria_cumprida": 40,
+      "numero_faltas": 2,
+      "percentual_carga_horaria_frequentada": 95,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 2,
+      "nota_etapa_1": {
+        "nota": 90,
+        "faltas": 2
+      },
+      "nota_etapa_2": {
+        "nota": 100,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": null,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_disciplina": 96,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "96"
+    },
+    {
+      "codigo_diario": "145015",
+      "disciplina": "TIN.0175 - História I(60H)",
+      "segundo_semestre": false,
+      "carga_horaria": 80,
+      "carga_horaria_cumprida": 80,
+      "numero_faltas": 4,
+      "percentual_carga_horaria_frequentada": 95,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 91,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 98,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": 60,
+        "faltas": 2
+      },
+      "nota_etapa_4": {
+        "nota": 100,
+        "faltas": 2
+      },
+      "media_disciplina": 86,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "86"
+    },
+    {
+      "codigo_diario": "145016",
+      "disciplina": "TIN.0144 - Inglês I(90H)",
+      "segundo_semestre": false,
+      "carga_horaria": 120,
+      "carga_horaria_cumprida": 120,
+      "numero_faltas": 10,
+      "percentual_carga_horaria_frequentada": 92,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 98,
+        "faltas": 1
+      },
+      "nota_etapa_2": {
+        "nota": 76,
+        "faltas": 3
+      },
+      "nota_etapa_3": {
+        "nota": 100,
+        "faltas": 3
+      },
+      "nota_etapa_4": {
+        "nota": 100,
+        "faltas": 3
+      },
+      "media_disciplina": 95,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "95"
+    },
+    {
+      "codigo_diario": "145017",
+      "disciplina": "TIN.0594 - Instalação e Configuração de Servidores(60H)",
+      "segundo_semestre": false,
+      "carga_horaria": 80,
+      "carga_horaria_cumprida": 80,
+      "numero_faltas": 8,
+      "percentual_carga_horaria_frequentada": 90,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 55,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": 70,
+        "faltas": 6
+      },
+      "nota_etapa_4": {
+        "nota": 95,
+        "faltas": 2
+      },
+      "media_disciplina": 78,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "78"
+    },
+    {
+      "codigo_diario": "145018",
+      "disciplina": "TIN.0172 - Língua Portuguesa e Literatura III(90H)",
+      "segundo_semestre": false,
+      "carga_horaria": 120,
+      "carga_horaria_cumprida": 122,
+      "numero_faltas": 11,
+      "percentual_carga_horaria_frequentada": 91,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 58,
+        "faltas": 1
+      },
+      "nota_etapa_2": {
+        "nota": 70,
+        "faltas": 3
+      },
+      "nota_etapa_3": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": 80,
+        "faltas": 7
+      },
+      "media_disciplina": 77,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "77"
+    },
+    {
+      "codigo_diario": "145019",
+      "disciplina": "TIN.0185 - Matemática III(90H)",
+      "segundo_semestre": false,
+      "carga_horaria": 120,
+      "carga_horaria_cumprida": 121,
+      "numero_faltas": 5,
+      "percentual_carga_horaria_frequentada": 96,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 78,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 59,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": 87,
+        "faltas": 2
+      },
+      "nota_etapa_4": {
+        "nota": 83,
+        "faltas": 3
+      },
+      "media_disciplina": 78,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "78"
+    },
+    {
+      "codigo_diario": "145020",
+      "disciplina": "TIN.0593 - Programação de Sistemas para Internet(120H)",
+      "segundo_semestre": false,
+      "carga_horaria": 160,
+      "carga_horaria_cumprida": 160,
+      "numero_faltas": 26,
+      "percentual_carga_horaria_frequentada": 84,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 4,
+      "nota_etapa_1": {
+        "nota": 94,
+        "faltas": 4
+      },
+      "nota_etapa_2": {
+        "nota": 83,
+        "faltas": 14
+      },
+      "nota_etapa_3": {
+        "nota": 96,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": 87,
+        "faltas": 8
+      },
+      "media_disciplina": 90,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "90"
+    },
+    {
+      "codigo_diario": "145021",
+      "disciplina": "TIN.0595 - Seminário de Orientação para a Prática Profissional I(15H)",
+      "segundo_semestre": false,
+      "carga_horaria": 20,
+      "carga_horaria_cumprida": 20,
+      "numero_faltas": 0,
+      "percentual_carga_horaria_frequentada": 100,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 2,
+      "nota_etapa_1": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_2": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": null,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_disciplina": 90,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "90"
+    },
+    {
+      "codigo_diario": "145023",
+      "disciplina": "TIN.0177 - Sociologia III(30H)",
+      "segundo_semestre": true,
+      "carga_horaria": 40,
+      "carga_horaria_cumprida": 40,
+      "numero_faltas": 2,
+      "percentual_carga_horaria_frequentada": 95,
+      "situacao": "Aprovado",
+      "quantidade_avaliacoes": 2,
+      "nota_etapa_1": {
+        "nota": 93,
+        "faltas": 2
+      },
+      "nota_etapa_2": {
+        "nota": 90,
+        "faltas": 0
+      },
+      "nota_etapa_3": {
+        "nota": null,
+        "faltas": 0
+      },
+      "nota_etapa_4": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_disciplina": 91,
+      "nota_avaliacao_final": {
+        "nota": null,
+        "faltas": 0
+      },
+      "media_final_disciplina": "91"
+    }
+  ],
+  "count": 13,
+  "next": null,
+  "previous": null
+}
