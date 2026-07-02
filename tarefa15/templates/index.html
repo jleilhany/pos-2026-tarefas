@@ -3,85 +3,99 @@
 {% block title %}Início{% endblock %}
 
 {% block content %}
-<div class="row justify-content-center animate-fade-in">
+<div class="row justify-content-center">
     <div class="col-lg-10">
-        <!-- Hero Section -->
-        <div class="glass-card p-5 mb-4 text-center">
-            <div class="mb-4">
-                <span class="display-1" style="background: var(--gradient-main); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+        <div class="card border-0 shadow-lg mb-4">
+            <div class="card-body text-center py-5">
+                <div class="display-1 text-primary mb-3">
                     <i class="bi bi-mortarboard-fill"></i>
-                </span>
+                </div>
+                <h1 class="display-4 fw-bold mb-3">SUAP Client</h1>
+                <p class="lead text-muted mb-4">
+                    Acesse suas informações acadêmicas de forma segura e integrada
+                </p>
+                
+                {% if user_data %}
+                    <div class="alert alert-success d-inline-block">
+                        <i class="bi bi-check-circle-fill"></i>
+                        Bem-vindo, <strong>{{ user_data.nome_usual }}</strong>!
+                    </div>
+                    <div class="mt-3">
+                        <a href="{{ url_for('profile') }}" class="btn btn-primary btn-lg me-2">
+                            <i class="bi bi-person"></i> Meu Perfil
+                        </a>
+                        <a href="{{ url_for('boletim') }}" class="btn btn-success btn-lg">
+                            <i class="bi bi-journal"></i> Boletim
+                        </a>
+                    </div>
+                {% else %}
+                    <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg px-5">
+                        <i class="bi bi-box-arrow-in-right"></i> Entrar com SUAP
+                    </a>
+                {% endif %}
             </div>
-            <h1 class="display-4 fw-bold mb-3" style="background: var(--gradient-main); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                SUAP Portal
-            </h1>
-            <p class="lead text-secondary mb-4">
-                Gerencie sua vida acadêmica com segurança e praticidade
-            </p>
-            
-            {% if user_data %}
-                <div class="d-flex flex-wrap justify-content-center gap-3">
-                    <a href="{{ url_for('profile') }}" class="btn btn-primary px-4 py-2 rounded-pill" style="background: var(--gradient-main); border: none;">
-                        <i class="bi bi-person-circle me-2"></i>Meu Perfil
-                    </a>
-                    <a href="{{ url_for('boletim') }}" class="btn btn-outline-success px-4 py-2 rounded-pill" style="border-color: var(--accent-green); color: var(--accent-green);">
-                        <i class="bi bi-journal-text me-2"></i>Boletim
-                    </a>
-                </div>
-                <div class="mt-3">
-                    <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill">
-                        <i class="bi bi-check-circle-fill me-1"></i> Bem-vindo, {{ user_data.nome_usual or 'Usuário' }}
-                    </span>
-                </div>
-            {% else %}
-                <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg px-5 py-3 rounded-pill" style="background: var(--gradient-main); border: none; font-weight: 600;">
-                    <i class="bi bi-box-arrow-in-right me-2"></i>Acessar com SUAP
-                </a>
-            {% endif %}
         </div>
 
-        <!-- Features -->
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="glass-card p-4 text-center h-100">
-                    <div class="mb-3">
-                        <span class="display-6 text-primary">
-                            <i class="bi bi-shield-check"></i>
-                        </span>
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body text-center">
+                        <div class="feature-icon bg-primary bg-gradient text-white rounded-circle mb-3">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h5 class="card-title">Autenticação Segura</h5>
+                        <p class="card-text text-muted small">
+                            Utiliza OAuth 2.0 para autenticação, garantindo a segurança dos seus dados
+                        </p>
                     </div>
-                    <h5 class="fw-bold mb-2">Segurança</h5>
-                    <p class="text-secondary small mb-0">
-                        Autenticação OAuth 2.0 garantindo a proteção dos seus dados
-                    </p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="glass-card p-4 text-center h-100">
-                    <div class="mb-3">
-                        <span class="display-6 text-success">
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body text-center">
+                        <div class="feature-icon bg-success bg-gradient text-white rounded-circle mb-3">
                             <i class="bi bi-person-badge"></i>
-                        </span>
+                        </div>
+                        <h5 class="card-title">Perfil Completo</h5>
+                        <p class="card-text text-muted small">
+                            Visualize todas as suas informações pessoais e foto do perfil
+                        </p>
                     </div>
-                    <h5 class="fw-bold mb-2">Perfil</h5>
-                    <p class="text-secondary small mb-0">
-                        Acesse todas as suas informações pessoais atualizadas
-                    </p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="glass-card p-4 text-center h-100">
-                    <div class="mb-3">
-                        <span class="display-6 text-info">
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body text-center">
+                        <div class="feature-icon bg-info bg-gradient text-white rounded-circle mb-3">
                             <i class="bi bi-journal-check"></i>
-                        </span>
+                        </div>
+                        <h5 class="card-title">Boletim Acadêmico</h5>
+                        <p class="card-text text-muted small">
+                            Acompanhe suas notas e desempenho por disciplina e período
+                        </p>
                     </div>
-                    <h5 class="fw-bold mb-2">Boletim</h5>
-                    <p class="text-secondary small mb-0">
-                        Acompanhe seu desempenho acadêmico em tempo real
-                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    .feature-icon {
+        width: 64px;
+        height: 64px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.75rem;
+    }
+    .hover-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: default;
+    }
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+</style>
 {% endblock %}
