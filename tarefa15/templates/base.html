@@ -3,46 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}SUAP Client{% endblock %}</title>
+    <title>{% block title %}Mini Suap{% endblock %}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-       
-        .bg-primary { background: #7aab80 !important; }
-        .btn-primary { background: #7aab80 !important; border-color: #7aab80 !important; }
-        .btn-primary:hover { background: #6b9a70 !important; border-color: #6b9a70 !important; }
-        .btn-success { background: #7aab80 !important; border-color: #7aab80 !important; }
-        .btn-success:hover { background: #6b9a70 !important; border-color: #6b9a70 !important; }
-        .btn-outline-secondary { color: #7aab80 !important; border-color: #b5d7b8 !important; }
-        .btn-outline-secondary:hover { background: #d4e9d6 !important; color: #3a5a3e !important; }
-        .text-primary { color: #7aab80 !important; }
-        .bg-success { background: #7aab80 !important; }
-        .bg-danger { background: #d48a8a !important; }
-        .alert-success { background: #d4e9d6 !important; border-color: #b5d7b8 !important; color: #3a5a3e !important; }
-        .alert-info { background: #e8f5ea !important; border-color: #b5d7b8 !important; color: #3a5a3e !important; }
-        .table-dark { background: #d4e9d6 !important; color: #3a5a3e !important; }
-        .badge.bg-success { background: #7aab80 !important; }
-        .badge.bg-danger { background: #d48a8a !important; color: #fff !important; }
-        .badge.bg-warning { background: #e8d4a0 !important; color: #7a6a3a !important; }
-        .card.bg-success { background: #7aab80 !important; }
-        .card.bg-danger { background: #d48a8a !important; }
-        .form-select:focus { border-color: #7aab80 !important; box-shadow: 0 0 0 0.2rem rgba(122, 171, 128, 0.25) !important; }
-        .shadow-lg { box-shadow: 0 8px 30px rgba(122, 171, 128, 0.15) !important; }
-        .text-muted { color: #6b8f70 !important; }
-        body { background: #f8fbf8; }
-        .info-item { border-bottom: 1px solid #d4e9d6 !important; }
-        .border-top { border-color: #d4e9d6 !important; }
-        .bg-light { background: #f8fbf8 !important; }
-        .dropdown-item:hover { background: #d4e9d6 !important; }
-        .feature-icon { background: #7aab80 !important; }
-        .card.border-0.shadow-sm:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; }
+        /* PALETA ROXO + VERDE CLARO */
+        :root {
+            --roxo-escuro: #736a8d;
+            --roxo-medio: #5B4A7A;
+            --roxo-claro: #BAB0C8;
+            --roxo-muito-claro: #DAD4DF;
+            --verde-claro: #7AAB80;
+            --verde-muito-claro: #D4E9D6;
+            --verde-claro-hover: #6B9A70;
+            --verde-escuro: #6B9A70;
+        }
+
+        /* BACKGROUNDS */
+        .bg-primary { background: var(--roxo-escuro) !important; }
+        .bg-success { background: var(--verde-claro) !important; }
+        .bg-danger { background: #e978b6 !important; }
+        .bg-light { background: #f5f7f5 !important; }
+        body { background: #f8faf8; }
+
+        /* BOTÕES PRIMARY (roxo) */
+        .btn-primary { 
+            background: var(--roxo-escuro) !important; 
+            border-color: var(--roxo-escuro) !important; 
+        }
+        .btn-primary:hover { 
+            background: #25203a !important; 
+            border-color: #25203a !important; 
+        }
+
+        /* BOTÕES SUCCESS (verde claro) */
+        .btn-success { 
+            background: var(--verde-claro) !important; 
+            border-color: var(--verde-claro) !important; 
+        }
+        .btn-success:hover { 
+            background: var(--verde-claro-hover) !important; 
+            border-color: var(--verde-claro-hover) !important; 
+        }
+
+        /* BOTÕES OUTLINE SECONDARY */
+        .btn-outline-secondary { 
+            color: var(--roxo-escuro) !important; 
+            border-color: var(--roxo-claro) !important; 
+        }
+        .btn-outline-secondary:hover { 
+            background: var(--roxo-muito-claro) !important; 
+            color: var(--roxo-escuro) !important; 
+        }
+
+        /* BOTÕES OUTLINE DANGER */
+        .btn-outline-danger { 
+            color: #e978b6 !important; 
+            border-color: #e978b6 !important; 
+        }
+        .btn-outline-danger:hover { 
+            background: #e978b6 !important; 
+            color: #fff !important; 
+        }
+
+        /* BOTÕES OUTLINE PRIMARY */
+        .btn-outline-primary { 
+            color: var(--roxo-escuro) !important; 
+            border-color: var(--roxo-escuro) !important; 
+        }
+        .btn-outline-primary:hover { 
+            background: var(--roxo-escuro) !important; 
+            color: #fff !important; 
+        }
+
+        /* TEXTOS */
+        .text-primary { color: var(--roxo-escuro) !important; }
+        .text-muted { color: #5a6b5e !important; }
+
+        /* ALERTS */
+        .alert-success { 
+            background: var(--verde-muito-claro) !important; 
+            border-color: var(--verde-claro) !important; 
+            color: var(--verde-escuro) !important; 
+        }
+        .alert-info { 
+            background: var(--verde-muito-claro) !important; 
+            border-color: var(--verde-claro) !important; 
+            color: var(--verde-escuro) !important; 
+        }
+
+        /* TABELAS */
+        .table-dark { 
+            background: var(--roxo-escuro) !important; 
+            color: #fff !important; 
+        }
+
+        /* BADGES */
+        .badge.bg-success { background: var(--verde-claro) !important; }
+        .badge.bg-danger { background: #e978b6 !important; color: #fff !important; }
+        .badge.bg-warning { background: #e8d4a0 !important; color: #6B9A70 !important; }
+        .badge.bg-secondary { background: var(--roxo-claro) !important; color: var(--roxo-escuro) !important; }
+
+        /* CARDS */
+        .card.bg-success { background: var(--verde-claro) !important; }
+        .card.bg-danger { background: #e978b6 !important; }
+        .card.bg-primary { background: var(--roxo-escuro) !important; }
+
+        /* FORMS */
+        .form-select:focus { 
+            border-color: var(--roxo-escuro) !important; 
+            box-shadow: 0 0 0 0.2rem rgba(49, 42, 68, 0.25) !important; 
+        }
+
+        /* SHADOWS */
+        .shadow-lg { box-shadow: 0 8px 30px rgba(49, 42, 68, 0.15) !important; }
+
+        /* BORDAS */
+        .border-top { border-color: var(--verde-muito-claro) !important; }
+        .info-item { border-bottom: 1px solid var(--verde-muito-claro) !important; }
+
+        /* DROPDOWN */
+        .dropdown-item:hover { background: var(--verde-muito-claro) !important; }
+        .dropdown-item.text-danger { color: #e978b6 !important; }
+        .dropdown-item.text-danger:hover { background: #f0e4e4 !important; color: #e978b6 !important; }
+
+        /* FEATURE ICON */
+        .feature-icon { background: var(--roxo-escuro) !important; }
+
+        /* CARDS HOVER */
+        .card.border-0.shadow-sm:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 10px 20px rgba(49, 42, 68, 0.1) !important; 
+        }
+
+        /* NAVBAR */
+        .navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,0.85) !important; }
+        .navbar-dark .navbar-nav .nav-link:hover { color: #fff !important; }
+        .nav-link.btn-light.text-primary { color: var(--roxo-escuro) !important; }
+        .nav-link.btn-light.text-primary:hover { background: var(--verde-muito-claro) !important; }
+
+        /* CARD HEADERS */
+        .card-header.bg-success { background: var(--verde-claro) !important; }
+        .card-header.bg-primary { background: var(--roxo-escuro) !important; }
+
+        /* CARD FOOTER */
+        .card-footer.bg-light { background: #f5f7f5 !important; }
+
+        /* BOTÃO VOLTAR */
+        .btn-light.text-primary { color: var(--roxo-escuro) !important; }
+        .btn-light.text-primary:hover { background: var(--verde-muito-claro) !important; }
+
+        /* ROUNDED PILL */
+        .rounded-pill { border-radius: 50rem !important; }
+
+        /* IMAGEM PERFIL */
+        .img-fluid.rounded-circle { border: 4px solid var(--roxo-escuro) !important; }
+
+        /* GRADIENTES */
+        .bg-gradient { background: var(--roxo-escuro) !important; }
+        .bg-info.bg-gradient { background: var(--verde-claro) !important; }
+        .bg-success.bg-gradient { background: var(--verde-claro) !important; }
+        .bg-primary.bg-gradient { background: var(--roxo-escuro) !important; }
+
+        /* BOTÃO ENTRAR */
+        .btn-light.text-primary { color: var(--roxo-escuro) !important; }
+        .btn-light.text-primary:hover { background: var(--verde-muito-claro) !important; }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="{{ url_for('index') }}">
-                <i class="bi bi-mortarboard-fill"></i> SUAP Client
+                <i class="bi bi-mortarboard-fill"></i> MINI SUAP
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -87,7 +219,7 @@
                             </li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="{{ url_for('boletim') }}">
-                                <i class="bi bi-journal"></i> Boletim
+                                <i class="bi-person-fill"></i> Boletim
                             </a></li>
                             <li><a class="dropdown-item" href="{{ url_for('profile') }}">
                                 <i class="bi bi-person"></i> Perfil
@@ -119,7 +251,7 @@
     <footer class="bg-light py-3 mt-auto border-top">
         <div class="container text-center">
             <span class="text-muted small">
-                <i class="bi bi-code-square"></i> SUAP Client - Tarefa 15
+                <i class="bi bi-code-square"></i> SUAP - Tarefa 15
             </span>
         </div>
     </footer>
